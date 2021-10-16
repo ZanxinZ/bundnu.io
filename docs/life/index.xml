@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on Example Site</title>
+    <link>http://example.org/life/</link>
+    <description>Recent content in Life on Example Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 16 Oct 2021 23:59:03 +0800</lastBuildDate><atom:link href="http://example.org/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的小花小草们</title>
+      <link>http://example.org/life/plant/</link>
+      <pubDate>Sun, 17 Oct 2021 00:06:22 +0800</pubDate>
+      
+      <guid>http://example.org/life/plant/</guid>
+      <description>logo</description>
+    </item>
+    
+  </channel>
+</rss>
