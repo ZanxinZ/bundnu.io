@@ -37,6 +37,7 @@ params:
     footer:
         since: 2020
         customText: 
+        enable: false  # 自定义的功能
         
 
     dateFormat:
@@ -52,86 +53,86 @@ params:
             src: img/bike.JPG
 
     article:
-        math: false
+        math: true
         toc: true
         readingTime: true
         license:
             enabled: false
             default: Licensed under CC BY-NC-SA 4.0
 
-    comments:
-        enabled: true
-        provider: disqus
+    # comments:
+    #     enabled: true
+    #     provider: disqus
 
-        disqusjs:
-            shortname:
-            apiUrl:
-            apiKey:
-            admin:
-            adminLabel:
+    #     disqusjs:
+    #         shortname:
+    #         apiUrl:
+    #         apiKey:
+    #         admin:
+    #         adminLabel:
 
-        utterances:
-            repo:
-            issueTerm: pathname
-            label:
+    #     utterances:
+    #         repo:
+    #         issueTerm: pathname
+    #         label:
 
-        remark42:
-            host:
-            site:
-            locale:
+    #     remark42:
+    #         host:
+    #         site:
+    #         locale:
 
-        vssue:
-            platform:
-            owner:
-            repo:
-            clientId:
-            clientSecret:
-            autoCreateIssue: false
+    #     vssue:
+    #         platform:
+    #         owner:
+    #         repo:
+    #         clientId:
+    #         clientSecret:
+    #         autoCreateIssue: false
 
-        # Waline client configuration see: https://waline.js.org/en/reference/client.html
-        waline:
-            serverURL:
-            lang:
-            visitor:
-            avatar:
-            emoji:
-                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
-            requiredMeta:
-                - name
-                - email
-                - url
-            placeholder:
-            locale:
-                admin: Admin
+    #     # Waline client configuration see: https://waline.js.org/en/reference/client.html
+    #     waline:
+    #         serverURL:
+    #         lang:
+    #         visitor:
+    #         avatar:
+    #         emoji:
+    #             - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
+    #         requiredMeta:
+    #             - name
+    #             - email
+    #             - url
+    #         placeholder:
+    #         locale:
+    #             admin: Admin
 
-        twikoo:
-            envId:
-            region:
-            path:
-            lang:
+    #     twikoo:
+    #         envId:
+    #         region:
+    #         path:
+    #         lang:
 
-        giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
-            lightTheme:
-            darkTheme:
-            reactionsEnabled: 1
-            emitMetadata: 0
+    #     giscus:
+    #         repo:
+    #         repoID:
+    #         category:
+    #         categoryID:
+    #         mapping:
+    #         lightTheme:
+    #         darkTheme:
+    #         reactionsEnabled: 1
+    #         emitMetadata: 0
 
-        gitalk:
-            owner: 
-            admin:  
-            repo: 
-            clientID: 
-            clientSecret: 
+    #     gitalk:
+    #         owner: 
+    #         admin:  
+    #         repo: 
+    #         clientID: 
+    #         clientSecret: 
         
-        cusdis:
-            host: 
-            id: 
-
+    #     cusdis:
+    #         host: 
+    #         id: 
+    
     widgets:
         enabled:
             - search
@@ -139,10 +140,10 @@ params:
             - tag-cloud
 
         archives:
-            limit: 5
+            limit: 6
 
         tagCloud:
-            limit: 10
+            limit: 15
 
     opengraph:
         twitter:
@@ -185,15 +186,15 @@ menu:
               ### For demonstration purpose, the home link will be open in a new tab
               newTab: false
         - identifier: blog
-          name: 技术
-          url: /
+          name: 编程
+          url: code
           weight: 2 ## 顺序
           pre: technology2
           params:
               newTab: false
         - identifier: life
           name: 生活
-          url: about
+          url: life
           weight: 3
           pre: life
           params:
