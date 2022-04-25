@@ -32,9 +32,9 @@ content 之下可以添加 index.md 作为网站 `/` 访问到的内容。
 
 ![index.md](about/indexmd.jpg)
 
-在 content 之下可以添加子目录，用于分类。如下图的添加了 code 目录，并且在子目录下添加了 _index.md 用以显示进入 code 时显示的内容
+在 content 之下可以添加子目录，用于分类。如下图的添加了 code 目录，并且在子目录下添加了 index.md 用以显示进入 code 时显示的内容
 
-_index.md 只是用于显示当前页面的标题信息，不用来书写主要内容
+index.md 只是用于显示当前页面的标题信息，不用来书写主要内容
 ![_index](about/_indexUse.jpg)
 
 - 输入指令以新建文件

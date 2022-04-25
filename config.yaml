@@ -148,7 +148,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: 
 
             # Available values: summary, summary_large_image
             card: summary_large_image
@@ -194,7 +194,7 @@ menu:
               newTab: false
         - identifier: life
           name: 生活
-          url: life
+          url: /life
           weight: 3
           pre: life
           params:
