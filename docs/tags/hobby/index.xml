@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hobby on Example Site</title>
+    <title>hobby on ZanxinZ</title>
     <link>http://example.org/tags/hobby/</link>
-    <description>Recent content in hobby on Example Site</description>
+    <description>Recent content in hobby on ZanxinZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 17 Oct 2021 00:06:22 +0800</lastBuildDate><atom:link href="http://example.org/tags/hobby/index.xml" rel="self" type="application/rss+xml" />
