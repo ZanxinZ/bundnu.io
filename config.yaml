@@ -1,6 +1,6 @@
 baseURL : http://example.org/
 languageCode : zh-cn
-title : My New Hugo Site
+title : Hugo
 theme : hugo-theme-stack
 
 # Match the github rule.
