@@ -1,11 +1,11 @@
 ---
-title: "MindOpener"
-description: "Welcome"
+title: "主页"
+description: "Hi👋"
 date: 2022-04-25T14:18:47+08:00
 draft: false
 ---
 
 
-## ddds
+# 快捷入口
 
-[算法题目](code/记录)
+[算法题目](life/plant)

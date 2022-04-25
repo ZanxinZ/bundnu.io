@@ -29,7 +29,7 @@ permalinks:
 
 params:
     mainSections:
-        - post
+        - home
     featuredImageField: image
     rssFullContent: true
     favicon:
