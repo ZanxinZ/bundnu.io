@@ -1,5 +1,8 @@
 name: Actions
-on: [push]
+on: 
+  push: 
+    branches: 
+      - ZanxinZ-action
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -20,9 +23,9 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}
           publish_dir: ./public
           publish_branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
      
       - run: echo "🍏 This job's status is ${{ job.status }}."
