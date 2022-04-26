@@ -2,7 +2,7 @@ name: Actions
 on: 
   push: 
     branches: 
-      - ZanxinZ-action
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -26,6 +26,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}
           publish_dir: ./public
-          publish_branch: main
+          publish_branch: master
      
       - run: echo "🍏 This job's status is ${{ job.status }}."
