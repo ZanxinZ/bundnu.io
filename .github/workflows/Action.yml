@@ -19,13 +19,12 @@ jobs:
         run: hugo --minify
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}
           publish_dir: ./docs
-          publish_branch: main
-          
+          publish_branch: master
+          #github_token: ${{ secrets.GITHUB_TOKEN }}
+        run: echo "Hello World!"
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
