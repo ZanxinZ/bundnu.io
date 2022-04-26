@@ -8,4 +8,4 @@ draft: false
 
 # 快捷入口
 
-[算法题目](life/plant)
+[算法题目](code/算法)
