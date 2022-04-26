@@ -2,7 +2,7 @@ name: Actions
 on: 
   push: 
     branches: 
-      - master
+      - master      # 监测 master 分支的 push
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -26,7 +26,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}
-          publish_dir: ./docs
-          publish_branch: main
+          publish_dir: ./  ## 选择 deploy 源头，把这个 docs 部署到 main 分支  
+          publish_branch: main  
      
       - run: echo "🍏 This job's status is ${{ job.status }}."
